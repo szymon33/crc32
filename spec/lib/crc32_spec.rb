@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'mycrc32'
+require 'crc32'
 
-describe MYCRC32 do
+describe CRC32 do
   describe '#algorythm' do
     it 'is valid' do
       expect(
