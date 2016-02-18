@@ -1,0 +1,3 @@
+describe "true"
+  expect(true).to_be(true)
+end
