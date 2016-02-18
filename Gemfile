@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'rspec', '~>3.0'
-gem 'rake'
+# Specify your gem's dependencies in crc32.gemspec
+gemspec

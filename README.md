@@ -45,19 +45,37 @@ I decided to implement algorythm more or less the following idea:
 
 So as you see it is without lookup table initially.
 
+### Gem
+
+This repository is a start point of implementation gem `crc32`.
+
+Framework work with Ruby version 2.1. You can add it to your Gemfile with:
+
+```ruby
+gem 'crc32', git: 'git@github.com:szymon33/crc32.git', branch: 'master', tag: 'v1.1'
+```
+
+Run the bundle command to install it.
+
+You can review usage of this gem in the **[sample application](https://github.com/szymon33/crc32-container)**. Please note that I use git's tags here but not branches.
+
+Both repositories are public but not published [on the RubyGems.org site](https://rubygems.org/gems). If there is any problem with `bundler` then you could install `crc32` gem like the following as well:
+
+```ruby
+git clone git@github.com:szymon33/crc32.git
+
+gem build crc32.gemspec
+
+gem install crc32
+
+```
+
+
 ### Miscellaneous
-
-# Gem
-
-The propose of this repository is to be a library for other programms. Thus, example usage with banchmarks is here:
-
-You have to put the following in your gemfile:
-
-
 
 **Specs**
 
-I put some basic spacs
+I wrote some basic spacs just to be sure there everyting is always fine.
 
 **Ruby bit operations**
 
@@ -66,8 +84,8 @@ operator  description
 | The OR operator
 ^ The XOR operator
 ~ The NOT (complement) operator
-« The left shift operator
-» The right shift operator
+<< The left shift operator
+>> The right shift operator
 
 **Negative nubmers**
 

@@ -1,4 +1,6 @@
-module CRC32
+require "crc32/version"
+
+module Crc32
   QUOTIENT = 0xEDB88320.freeze
 
   def self.algorythm(str)
