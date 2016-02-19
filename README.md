@@ -52,7 +52,7 @@ This repository is a start point of implementation gem `crc32`.
 Framework work with Ruby version 2.1. You can add it to your Gemfile with:
 
 ```ruby
-gem 'crc32', git: 'git@github.com:szymon33/crc32.git', branch: 'master', tag: '0.0.1'
+gem 'crc32', git: 'git@github.com:szymon33/crc32.git', branch: 'master', tag: 'v0.0.2'
 ```
 
 Run the bundle command to install it.
